@@ -1,6 +1,10 @@
 
-function createGreeting{
-return ('Hi,, my name is Cesar and I'm 23 years old');
+function createGreeting(name, age){
+const yearOfBirth
+
+  return (`Hi, my name is ${name} and Im ${age} years old`); 
 }
 
-createGreeting();
+
+const greeting1 = createGreeting();
+console.log(greeting1);
